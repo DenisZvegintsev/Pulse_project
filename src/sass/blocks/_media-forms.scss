@@ -1,0 +1,30 @@
+@media (max-width:376px) {
+    .consultation {
+        max-width: 100%;
+
+        .title {
+            font-size: 30px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        &__descr {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .feed-form {
+            flex-wrap: wrap;
+            max-width: 100%;
+            align-content: center;
+            padding-left: 27px;
+
+        }
+
+        .button_submit {
+            align-self: center;
+            max-width: 90%;
+        }
+    }
+}
